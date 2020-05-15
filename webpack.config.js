@@ -5,7 +5,7 @@ module.exports = {
   watchOptions: {
     ignored: /node_modules/
   },
-  mode: "development",
+  mode: "production",
   entry: "./client/index.jsx",
   output: {
     path: path.resolve(__dirname, "public"),
