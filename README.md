@@ -1,7 +1,7 @@
 # Project Name
-
+Shmetsy (Reviews Microservice)
 > Project description
-
+Shmetsy is designed to a be a clone of the Etsy product page. This repository handles the reviews component for the web page. 
 ## Related Projects
 
   - https://github.com/teamName/repo
@@ -17,7 +17,9 @@
 
 ## Usage
 
-> Some usage instructions
+Note that you must have mySQL installed on your machine prior to running the application in this repository. 
+
+1. Start the mySQL server on your computer by typing `sudo service mysql start`. 
 
 ## Requirements
 
