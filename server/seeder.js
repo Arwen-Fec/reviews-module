@@ -4,7 +4,12 @@ const faker = require('faker');
 const config = require('./sqlconfig.js');
 
 
-const connection = mysql.createConnection(config);
+const connection = db.createConnection({
+  host: 'localhost',
+  user: 'root',
+  password: 'password',
+  database: 'reviewList'
+});
 
 connection.connect((err) => {
   if (err) {
