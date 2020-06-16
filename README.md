@@ -24,8 +24,7 @@ Note that you must have mySQL installed on your machine prior to running the app
 
 2. After you've installed all the necessary dependencies and the mySQL server is up and running, cd in to the `/server` directory. 
 
-3. Source the `schema.sql` file by typing `mysql -u root -p < schema.sql`. Do not include the brackets when typing your username. 
-   You may run into an authentication error. This guide will help remedy this: https://dev.to/oneearedmusic/access-denied-reset-mysql-root-user-password-2hk4. Once you've fixed this, try to source the `schema.sql` file again using the new password you assigned for the `root` user. 
+3. Source the `schema.sql` file by typing `mysql -u root -p < schema.sql`. You may run into an authentication error. This guide will help remedy this: https://dev.to/oneearedmusic/access-denied-reset-mysql-root-user-password-2hk4. Once you've fixed this, try to source the `schema.sql` file again using the new password you assigned for the `root` user. 
    
 4. Confirm that the datbase `reviewList` has been created by first typing `mysql -u root -p`. Press Enter, and then type the same password from step 3 again. 
 
