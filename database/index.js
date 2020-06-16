@@ -6,9 +6,9 @@ const config = require('../server/sqlconfig.js');
 
 
 const connection = db.createConnection({
-  host: 'database-1.clczllep9gvm.us-east-2.rds.amazonaws.com',
-  user: 'admin',
-  password: 'gh3456adswere',
+  host: 'localhost',
+  user: 'root',
+  password: 'password',
   database: 'reviewList'
 });
 
